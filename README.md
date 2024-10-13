@@ -63,6 +63,9 @@ Test cases can be run either via the command line or directly from the Visual St
 > At the moment, the test cases are executed as TypeScript files only, due to manual CAPTCHA solving.
 > Since manually solved CAPTCHAs cannot be fully automated, these test cases must be run manually.
 
+> [!Warning]
+> The user running the test case must closely monitor the process during sign-in, as the test will pause and wait for the user to manually solve the reCAPTCHA. After solving the CAPTCHA, the user should return to the terminal and press Enter. The test case will then resume execution following this manual intervention.
+
 Run test cases using the commands below. Each file name represents a page under test:
 ```
 npx test:editors-pick
