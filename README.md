@@ -59,7 +59,7 @@ For now the only the page utilites are designing, these utilities can be reused 
 ### Running Tests
 Test cases can be run either via the command line or directly from the Visual Studio Code terminal.
 
-> [Note:]
+> [!Note]
 > At the moment, the test cases are executed as TypeScript files only, due to manual CAPTCHA solving.
 > Since manually solved CAPTCHAs cannot be fully automated, these test cases must be run manually.
 
